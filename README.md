@@ -1,5 +1,6 @@
-## Object-oriented Programming (Lab Work) Template Guides
-1. Silakan anda upload file java hasil praktikum anda menggunakan NetBeans atau IDE/text editor lainnya dengan mengupload button ADD FILE
-2. Upload juga screenshot hasil latihan dan tugas anda dalam format .JPG atau .JPEG atau .PNG
-3. Setiap file java anda diharuskan untuk memiliki identitas anda dengan menggunakan komentar dengan format berikut "Created by NIM_Nama Lengkap" pada bagian paling atas setiap code anda. contoh: // Created by 1203232_Randi Proska Sandra
-4. Silakan anda edit file README.md ini dengan identitas anda juga serta berikan penjelasan terkait source code yang anda upload. Catatan: Jangan ubah nama file README.md
+## 21343063_Nurul Husna
+jobsheet kesembilan menjelaskan penggunaan kelas pada bahasa pemrograman java.
+1. program 1 adalah program dengan kelas pass by value. ada dua method yang digunakan dalam kelas tersebut. yaitu method main dan method test yang keduanya bertipe public. method test memberikan nilai ke method main. hal tersebut dapat dilihat pada baris ke 18. sehingga nilai i berubah karena i sudah berisi nilai dari method test.
+2. program 2 adalah program dengan kelas pass by reference. ada dua method yang digunakan dalam kelas yaitu method main yang berisi array ages dan method test. saat method dua dipanggil seperti pada baris ke-19 maka nilai dalam array berubah sesuai dengan method test.
+3. program 3 merupakan program untuk membandingkan objek. dari program tersebut dapat disimpulkan bahwa jika dua variabel diberikan operator = maka kedua variabel tersebut akan menjadi objek yang sama. sedangkan jika salah satu variabel diinisialisasikan ulang, walau nilainya sama kedua variabel tersebut adalah objek yang berbeda. untuk membandingkan kedua objek dapat menggunakan fungsi .equals()
+4. program keempat adalah contoh dari penggunaan method dari suatu kelas yang dipanggil ke kelas lain pada file yang berbeda di folder yang sama. untuk melakukannya, pada kelas panggil kelas lain dengan menggunakan syntax kelas1 objek = new kelas1(). setelah inisialisasi, method pada kelas 1 dapat digunakan di kelas 2
